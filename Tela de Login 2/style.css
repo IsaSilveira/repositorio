@@ -1,0 +1,129 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(50deg,#a259e2,#010a2e);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width:100vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: white;
+    max-width: 350px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    width: 800px;
+}
+
+main h2{
+    margin-bottom: 2rem;
+    position: relative;
+    font-weight: 600;
+}
+
+main h2::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 25px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg,#8e2de2,#2a3e94);
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.interacao{
+    position: relative;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.interacao input{
+    outline: none;
+    font-size: 0.9rem;
+    color:rgba(0,0,0,0.9) ;
+}
+
+form input[type="submit"]{
+    margin-top: 1rem;
+    padding: 0.4rem;
+    background: linear-gradient(to left,#771fc4,#00051C);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover{
+    letter-spacing: 0.5px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.3rem;
+}
+
+.footer span{
+    color: rgba(0,0,0,0.5);
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+    
+}
+
+.footer a i{
+    width: 15px;
+}
+
+.footer .google  {
+    background: linear-gradient(to right,#8a3ebd,#4146A6);
+    border-radius: 4px;
+    padding:0.4rem;
+    font-size: 0.75rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  
+}
+
+.footer .cadastro{
+    background: linear-gradient(to right,#8a3ebd,#4146A6);
+    border-radius: 4px;
+    padding:0.4rem;
+    font-size: 0.75rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+  
+}
+
+
+
